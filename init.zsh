@@ -8,6 +8,11 @@ p6df::modules::shell::external::brew() {
   brew install irssi
 }
 
+p6df::modules::shell::irssi::home::symlink() {
+ 
+  # XXX: ~/.irssi
+}
+
 p6df::modules::shell::init() {
 
   p6df::modules::shell::aliases::init

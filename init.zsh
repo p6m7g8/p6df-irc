@@ -11,6 +11,7 @@ p6df::modules::shell::external::brew() {
 p6df::modules::shell::irssi::home::symlink() {
  
   # XXX: ~/.irssi
+  true;
 }
 
 p6df::modules::shell::init() {

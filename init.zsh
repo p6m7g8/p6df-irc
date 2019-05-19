@@ -1,7 +1,4 @@
 p6df::modules::shell::irc::version() { echo "0.0.1" }
-p6df::modules::shell::irc::deps()    {
-        ModuleDeps=()
-}
 
 p6df::modules::shell::irc::external::brew() {
 
@@ -9,9 +6,8 @@ p6df::modules::shell::irc::external::brew() {
 }
 
 p6df::modules::shell::irc::home::symlink() {
- 
-  # XXX: ~/.irssi
-  true;
+
+  ln -fs $P6_DFZ_SRC_P6M7G8_DIR/p6df-irc/share/irssi .irssi
 }
 
 p6df::modules::shell::irc::init() {

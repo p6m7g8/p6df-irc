@@ -7,5 +7,4 @@
 - p6df::modules::irc::home::symlink()
 - p6df::modules::irc::init()
 - p6df::modules::irc::start()
-- p6df::modules::irc::version()
 

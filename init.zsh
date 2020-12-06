@@ -95,7 +95,7 @@ p6df::modules::irc::start() {
 ######################################################################
 p6df::modules::irc() {
 
-  if ! irc_attach ; then
-    irc_init
+  if ! p6df::modules::irc::attach; then
+    p6df::modules::irc::start
   fi
 }

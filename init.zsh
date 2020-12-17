@@ -57,9 +57,9 @@ p6df::modules::irc::init() {
 ######################################################################
 p6df::modules::irc::aliases::init() {
 
-  alias irc='p6df::modules::irc'
-  alias irc_attach='p6df::modules::irc::attach'
-  alias irc_init='p6df::modules::irc::init'
+  alias p6_irc='p6df::modules::irc'
+  alias p6_irc_attach='p6df::modules::irc::attach'
+  alias p6_irc_init='p6df::modules::irc::init'
 }
 
 ######################################################################
@@ -71,7 +71,7 @@ p6df::modules::irc::aliases::init() {
 ######################################################################
 p6df::modules::irc::attach() {
 
-  tmux attach -t irc
+  p6df::modules::shell::tmux::attach "irc"
 }
 
 ######################################################################
@@ -83,7 +83,8 @@ p6df::modules::irc::attach() {
 ######################################################################
 p6df::modules::irc::start() {
 
-  tmux new -s irc irssi
+  
+  p6df::modules::shell::tmux::new "irc" "irssi"
 }
 
 ######################################################################
@@ -95,7 +96,5 @@ p6df::modules::irc::start() {
 ######################################################################
 p6df::modules::irc() {
 
-  if ! p6df::modules::irc::attach; then
-    p6df::modules::irc::start
-  fi
+  p6df::modules::shell::tmux::make "irc" "irssi"
 }

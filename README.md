@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-irc:
+
+#### p6df-irc/init.zsh:
 
 - p6df::modules::irc()
 - p6df::modules::irc::aliases::init()

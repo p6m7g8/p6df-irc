@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6df-irc/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+### Features
+
+* modernize ([#14](https://github.com/p6m7g8/p6df-irc/issues/14)) ([0cfb17c](https://github.com/p6m7g8/p6df-irc/commit/0cfb17c9063d403bc8bd687add5fad835ea198f6))
+
+
+* **link:** remove rendundant symlinks; echo for now ([#17](https://github.com/p6m7g8/p6df-irc/issues/17)) ([421cb44](https://github.com/p6m7g8/p6df-irc/commit/421cb4497ea03e5797191c6bbaeea04300aa82b3))
+* **README:** updates generator ([#15](https://github.com/p6m7g8/p6df-irc/issues/15)) ([ed35dac](https://github.com/p6m7g8/p6df-irc/commit/ed35dacbe1c38ae2a7d25b38fd36b8454eb23b32))
+* Coc -> .github ([19b7d78](https://github.com/p6m7g8/p6df-irc/commit/19b7d78e6ef940450c793b11cfbcdcfd994017c6))
+* the great vscode indent of 2021 ([#16](https://github.com/p6m7g8/p6df-irc/issues/16)) ([ddce92c](https://github.com/p6m7g8/p6df-irc/commit/ddce92cb3fb7b27a0c3d6d59f30f285b68a15a04))
+* **irc:** move to shell::tmux::* ([#13](https://github.com/p6m7g8/p6df-irc/issues/13)) ([396182f](https://github.com/p6m7g8/p6df-irc/commit/396182f0217a319db2a39c81ae9d6a1988588f4e))
+
 ## [2.1.0](https://github.com/p6m7g8/p6df-irc/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
